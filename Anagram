@@ -1,0 +1,31 @@
+String1=str(input("Enter the string1"))
+String2=str(input("Enter the string2"))
+
+
+
+String1= string1.lower()
+String2= string2.lowe()
+
+
+String1= [i for i in string1.split()]
+String2= [i for i in string2.split()]
+String1.sort()
+String2.sort()
+
+If( string1==string2):
+      Print("anagram")
+else
+      Print(" not anagram")
+
+Enter the string1jyothika
+Enter the string2jyothika
+anagram
+
+
+
+
+
+
+
+
+
